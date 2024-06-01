@@ -1,4 +1,5 @@
 ﻿using Data.Entities;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -136,7 +137,7 @@ namespace Data
                 new Response(){Id=6, RatingId = 4, HotelRoomId = 1,Date = new DateTime(2024,3,2),  Description = "Very Good"},
             });
 
-
+            
         }
 
     }

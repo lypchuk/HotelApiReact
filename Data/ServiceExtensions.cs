@@ -43,8 +43,8 @@ namespace Data
         public static void AddCustomServices(this IServiceCollection services)
         {
             services.AddScoped<IHotelRoomService, HotelRoomService>();
-            /*services.AddScoped<IAccountsService, AccountsService>();
-            services.AddScoped<IJwtService, JwtService>();
+            services.AddScoped<IAccountsService, AccountsService>();
+            /*services.AddScoped<IJwtService, JwtService>();
             services.AddScoped<IOrdersService, OrdersService>();
             services.AddScoped<IFileService, AzureFileService/*LocalFileService*//*>();
 
